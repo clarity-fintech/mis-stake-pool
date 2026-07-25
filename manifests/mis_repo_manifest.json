@@ -1,0 +1,241 @@
+{
+  "schema": "clrty.mis_repo/v1",
+  "creator": "Chandler William Ferguson",
+  "org": "clarity-fintech",
+  "repo": "mis-stake-pool",
+  "title": "MIS Stake Pool",
+  "domain": "mis_stake_pool",
+  "deep_root": {
+    "language": "moniversive",
+    "dialect": "mis-ml",
+    "extension": ".mis",
+    "language_root": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json",
+    "settlement_network": "clrty-1",
+    "settlement_chain_id": 1202,
+    "embed_gates": "3..=6",
+    "letter_hash": "sha256-rolling-typed-letter/v1",
+    "compiler": "bin/misc"
+  },
+  "kernel": "mis/kernel/MisStakePoolKernel.mis",
+  "backlink_index": "mis/backlinks/MisBacklinkIndex.mis",
+  "packs": [
+    {
+      "name": "DelegationState",
+      "slug": "delegation_state",
+      "band": "1..=20",
+      "module": "mis/packs/delegation_state.mis",
+      "ids": [
+        "delegation_state_001",
+        "delegation_state_002",
+        "delegation_state_003",
+        "delegation_state_004",
+        "delegation_state_005",
+        "delegation_state_006",
+        "delegation_state_007",
+        "delegation_state_008",
+        "delegation_state_009",
+        "delegation_state_010",
+        "delegation_state_011",
+        "delegation_state_012",
+        "delegation_state_013",
+        "delegation_state_014",
+        "delegation_state_015",
+        "delegation_state_016",
+        "delegation_state_017",
+        "delegation_state_018",
+        "delegation_state_019",
+        "delegation_state_020"
+      ]
+    },
+    {
+      "name": "AutoCompound",
+      "slug": "auto_compound",
+      "band": "21..=40",
+      "module": "mis/packs/auto_compound.mis",
+      "ids": [
+        "auto_compound_021",
+        "auto_compound_022",
+        "auto_compound_023",
+        "auto_compound_024",
+        "auto_compound_025",
+        "auto_compound_026",
+        "auto_compound_027",
+        "auto_compound_028",
+        "auto_compound_029",
+        "auto_compound_030",
+        "auto_compound_031",
+        "auto_compound_032",
+        "auto_compound_033",
+        "auto_compound_034",
+        "auto_compound_035",
+        "auto_compound_036",
+        "auto_compound_037",
+        "auto_compound_038",
+        "auto_compound_039",
+        "auto_compound_040"
+      ]
+    },
+    {
+      "name": "ValidatorBind",
+      "slug": "validator_bind",
+      "band": "41..=60",
+      "module": "mis/packs/validator_bind.mis",
+      "ids": [
+        "validator_bind_041",
+        "validator_bind_042",
+        "validator_bind_043",
+        "validator_bind_044",
+        "validator_bind_045",
+        "validator_bind_046",
+        "validator_bind_047",
+        "validator_bind_048",
+        "validator_bind_049",
+        "validator_bind_050",
+        "validator_bind_051",
+        "validator_bind_052",
+        "validator_bind_053",
+        "validator_bind_054",
+        "validator_bind_055",
+        "validator_bind_056",
+        "validator_bind_057",
+        "validator_bind_058",
+        "validator_bind_059",
+        "validator_bind_060"
+      ]
+    },
+    {
+      "name": "RewardSplit",
+      "slug": "reward_split",
+      "band": "61..=80",
+      "module": "mis/packs/reward_split.mis",
+      "ids": [
+        "reward_split_061",
+        "reward_split_062",
+        "reward_split_063",
+        "reward_split_064",
+        "reward_split_065",
+        "reward_split_066",
+        "reward_split_067",
+        "reward_split_068",
+        "reward_split_069",
+        "reward_split_070",
+        "reward_split_071",
+        "reward_split_072",
+        "reward_split_073",
+        "reward_split_074",
+        "reward_split_075",
+        "reward_split_076",
+        "reward_split_077",
+        "reward_split_078",
+        "reward_split_079",
+        "reward_split_080"
+      ]
+    },
+    {
+      "name": "PoolEpoch",
+      "slug": "pool_epoch",
+      "band": "81..=100",
+      "module": "mis/packs/pool_epoch.mis",
+      "ids": [
+        "pool_epoch_081",
+        "pool_epoch_082",
+        "pool_epoch_083",
+        "pool_epoch_084",
+        "pool_epoch_085",
+        "pool_epoch_086",
+        "pool_epoch_087",
+        "pool_epoch_088",
+        "pool_epoch_089",
+        "pool_epoch_090",
+        "pool_epoch_091",
+        "pool_epoch_092",
+        "pool_epoch_093",
+        "pool_epoch_094",
+        "pool_epoch_095",
+        "pool_epoch_096",
+        "pool_epoch_097",
+        "pool_epoch_098",
+        "pool_epoch_099",
+        "pool_epoch_100"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LanguageRoot",
+      "path": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json"
+    },
+    {
+      "name": "MisCodeIndex",
+      "path": "CLRTY_SUBSTRATE/boot/mis_code_index.json"
+    },
+    {
+      "name": "MisEcosystemRepos",
+      "path": "CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json"
+    },
+    {
+      "name": "StaticMlCatalog",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json"
+    },
+    {
+      "name": "MisNativeKernels",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_native_kernels_776_875.json"
+    },
+    {
+      "name": "MisArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_architecture_primitives_876_975.json"
+    },
+    {
+      "name": "MisChainIntake",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_chain_intake_976_1025.json"
+    },
+    {
+      "name": "GradientBand",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_gradient_invariants_201_300.json"
+    },
+    {
+      "name": "TickArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_architecture.json"
+    },
+    {
+      "name": "TickStakingGradient",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_staking_gradient_propagation.json"
+    },
+    {
+      "name": "ProtocolStructures",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_protocol_structures_100.json"
+    },
+    {
+      "name": "MisKernelActiveOnly",
+      "path": "CLRTY_SUBSTRATE/boot/mis_kernel_active_only.json"
+    },
+    {
+      "name": "MisKernelSource",
+      "path": "moniversive/framework/mis_kernel.mis"
+    },
+    {
+      "name": "MisAllCodeIndex",
+      "path": "moniversive/framework/MisAllCodeIndex.mis"
+    },
+    {
+      "name": "MlKernelRepo",
+      "path": "https://github.com/clarity-fintech/moniversive_invariant_static_ML"
+    },
+    {
+      "name": "ClrtyMisKernelRepo",
+      "path": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+    },
+    {
+      "name": "MiscCompiler",
+      "path": "bin/misc"
+    }
+  ],
+  "clrty1": {
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "siblings": {
+    "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
+    "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+  }
+}

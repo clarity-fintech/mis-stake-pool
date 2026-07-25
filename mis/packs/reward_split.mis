@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: MIS Stake Pool · RewardSplit
+
+module MisStakePoolRewardSplit {
+
+  embed gates 3..=6 {
+    context: "RewardSplit pack on MIS domain mis_stake_pool — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_reward_split_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant reward_split_061: reward_split_061_bound == true;
+  invariant reward_split_062: reward_split_062_bound == true;
+  invariant reward_split_063: reward_split_063_bound == true;
+  invariant reward_split_064: reward_split_064_bound == true;
+  invariant reward_split_065: reward_split_065_bound == true;
+  invariant reward_split_066: reward_split_066_bound == true;
+  invariant reward_split_067: reward_split_067_bound == true;
+  invariant reward_split_068: reward_split_068_bound == true;
+  invariant reward_split_069: reward_split_069_bound == true;
+  invariant reward_split_070: reward_split_070_bound == true;
+  invariant reward_split_071: reward_split_071_bound == true;
+  invariant reward_split_072: reward_split_072_bound == true;
+  invariant reward_split_073: reward_split_073_bound == true;
+  invariant reward_split_074: reward_split_074_bound == true;
+  invariant reward_split_075: reward_split_075_bound == true;
+  invariant reward_split_076: reward_split_076_bound == true;
+  invariant reward_split_077: reward_split_077_bound == true;
+  invariant reward_split_078: reward_split_078_bound == true;
+  invariant reward_split_079: reward_split_079_bound == true;
+  invariant reward_split_080: reward_split_080_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_061(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_061_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_062(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_062_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_063(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_063_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_064(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_064_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_065(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_065_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_066(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_066_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_067(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_067_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_068(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_068_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_069(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_069_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_070(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_070_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_071(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_071_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_072(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_072_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_073(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_073_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_074(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_074_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_075(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_075_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_076(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_076_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_077(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_077_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_078(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_078_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_079(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_079_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_reward_split_080(payload: Bytes) {
+    require payload != @0;
+    constraint reward_split_080_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

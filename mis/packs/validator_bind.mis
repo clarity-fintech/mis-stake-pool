@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: MIS Stake Pool · ValidatorBind
+
+module MisStakePoolValidatorBind {
+
+  embed gates 3..=6 {
+    context: "ValidatorBind pack on MIS domain mis_stake_pool — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_validator_bind_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant validator_bind_041: validator_bind_041_bound == true;
+  invariant validator_bind_042: validator_bind_042_bound == true;
+  invariant validator_bind_043: validator_bind_043_bound == true;
+  invariant validator_bind_044: validator_bind_044_bound == true;
+  invariant validator_bind_045: validator_bind_045_bound == true;
+  invariant validator_bind_046: validator_bind_046_bound == true;
+  invariant validator_bind_047: validator_bind_047_bound == true;
+  invariant validator_bind_048: validator_bind_048_bound == true;
+  invariant validator_bind_049: validator_bind_049_bound == true;
+  invariant validator_bind_050: validator_bind_050_bound == true;
+  invariant validator_bind_051: validator_bind_051_bound == true;
+  invariant validator_bind_052: validator_bind_052_bound == true;
+  invariant validator_bind_053: validator_bind_053_bound == true;
+  invariant validator_bind_054: validator_bind_054_bound == true;
+  invariant validator_bind_055: validator_bind_055_bound == true;
+  invariant validator_bind_056: validator_bind_056_bound == true;
+  invariant validator_bind_057: validator_bind_057_bound == true;
+  invariant validator_bind_058: validator_bind_058_bound == true;
+  invariant validator_bind_059: validator_bind_059_bound == true;
+  invariant validator_bind_060: validator_bind_060_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_041(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_041_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_042(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_042_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_043(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_043_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_044(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_044_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_045(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_045_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_046(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_046_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_047(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_047_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_048(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_048_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_049(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_049_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_050(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_050_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_051(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_051_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_052(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_052_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_053(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_053_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_054(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_054_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_055(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_055_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_056(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_056_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_057(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_057_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_058(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_058_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_059(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_059_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_validator_bind_060(payload: Bytes) {
+    require payload != @0;
+    constraint validator_bind_060_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
